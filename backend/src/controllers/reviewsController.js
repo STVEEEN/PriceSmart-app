@@ -34,6 +34,8 @@ reviewsController.updateReview = async (req, res) => {
     },
     { new: true }
   );
+  
+  res.json({ message: "Review updated successfully" });
 };
 
 export default reviewsController;
